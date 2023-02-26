@@ -1,0 +1,15 @@
+---
+title: "Linear regression"
+format: html
+editor: visual
+---
+
+## The model
+
+First of all, we should define a model for our linear regression.
+
+$$
+y_i = \beta_0 + \sum_{j=1}^p \beta_j x_{ij}+\varepsilon_i
+$$
+
+where $y_i$ is the $i^{th}$ measured or result value, $\beta_0$ is the intercept, $\beta_j$ $(j=1,\dots,p)$ is the parameter for the $j^{th}$ measured variable and $\varepsilon _i$ is the so-called error term. The first two parts are the deterministic part of the model, meanwhile $\varepsilon$ incorporates every probabilistic aspect, and thus that is the stochastic part.
